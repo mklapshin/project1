@@ -20,7 +20,7 @@
 }
 
 .main-header-wrapper {
-  float: left;  
+  float: left;
 }
 
 .main-header-title {
@@ -33,7 +33,7 @@
   font-size: 60px;
   font-weight: 400;
 }
-        
+
 .main-header-list {
   margin: 0;
   padding: 0;
@@ -45,12 +45,12 @@
   font-family: "Arial MT";
   font-size: 20px;
   font-weight: 400;
-  line-height: 36px;    
+  line-height: 36px;
 }
 
 .main-header-list_item {
   padding: 0 0 0 20px;
-  color: white; 
+  color: white;
   position: relative;
 }
 
@@ -115,7 +115,7 @@
 
 .content-product-video {
   float: right;
-  display: block;  
+  display: block;
   background-color: #445161;
 }
 
@@ -123,13 +123,17 @@
   width: 100%;
   margin: 0;
   padding: 50px;
-  box-sizing: border-box;  
+  box-sizing: border-box;
   background-color: #f5f5f5;
   padding: 50px;
   height: 510px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .diginity-title {
+  width: 100%;
   display: block;
   margin: 0;
   border: 1px solod black;
@@ -139,25 +143,8 @@
   font-family: Arial;
 }
 
-
 .diginity-list {
-  width: 40%;
-  box-sizing: border-box;
-}
-
-summary:before {
-  background: #445162;
-  border-radius: 8px;
-  content: "+";
-  color: #fff;
-  float: left;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin: -5px 10px 0 0;
-  padding: 0;
-  text-align: center;
-  width: 20px;
-  display: block;
+  width: 50%;
 }
 
 .diginity-product-title-header {
@@ -204,7 +191,7 @@ summary:before {
   padding: 50px;
   height: 350px;
 }
-    
+
 .scrinshots-figure1 {
     width: 580px;
     height: 150px;
@@ -212,9 +199,9 @@ summary:before {
 }
 
 .scrinshots-image {
-    width: 170px;
-    height: 110px;
-    background-color: grey;
+    width: 200px;
+    height: 150px;
+    background-color: #445162;
     display: inline-block;
 }
 
@@ -227,7 +214,7 @@ summary:before {
 
 .scrinshots-figure2 {
     width: 580px;
-    height: 150px;
+    height: 176px;
     display: inline-block;
 }
 
@@ -239,7 +226,7 @@ summary:before {
 
 .scrinshots-figure4 {
     width: 580px;
-    height: 150px;
+    height: 176px;
     display: inline-block;
 }
 
@@ -252,7 +239,7 @@ summary:before {
   font-family: "Arial MT";
   font-size: 30px;
   font-weight: 400;
-  line-height: 36px;  
+  line-height: 36px;
 }
 
 .reviews {
@@ -307,12 +294,13 @@ summary:before {
 }
 
 .scrinshots {
-    height: 350px;
+  height: 350px;
 }
 
 .buy {
+  width: 100%;
   padding: 40px;
-  height: 470px;
+  height: 600px;
   background-color: white;
 }
 
@@ -325,30 +313,29 @@ summary:before {
   font-family: "Arial MT";
   font-size: 30px;
   font-weight: 400;
-  line-height: 36px;  
+  line-height: 36px;
 }
 
 .buy-block1 {
-    width: 300px;
-    height: 240px;
-    background-color: #445162;
-    display: inline-block;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    font-size: 25px;
-    margin: 0 0 0 100px;
+  width: 300px;
+  height: 306px;
+  background-color: #445162;
+  display: inline-block;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  margin: 0 0 0 105px;
 }
 
 .buy-block1-1 {
-    width: 297px;
-    height: 40px;
-    padding: 0;
-    top: 50px;
-    background-color: #fff;
-    border: 1px solid black;
-    color: black;
-    top: 50px;
+  width: 297px;
+  height: 71px;
+  padding: 0;
+  background-color: #fff;
+  border: 2px solid #445162;
+  color: black;
+  top: 51px;
 }
 
 .buy-price {
@@ -360,11 +347,15 @@ summary:before {
   color: #fff;
   font-size: 15px;
   text-align: left;
+  font-family: "Arial MT";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .buy-buttom {
-  width: 213px;
-  height: 30px;
+  width: 260px;
+  height: 40px;
   background-color: #ffffff;
   margin-left: 20px;
   border-radius: 5px 5px 5px 5px;
@@ -373,10 +364,10 @@ summary:before {
 
 .buy-block2 {
   width: 300px;
-  height: 310px;
+  height: 404px;
   background-color: #445162;
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 45px;
   padding: 0;
   float: bottom;
   color: #fff;
@@ -387,12 +378,12 @@ summary:before {
 
 .buy-block3 {
   width: 300px;
-  height: 380px;
+  height: 499px;
   background-color: #445162;
   display: inline-block;
   padding: 0;
   margin-top: 60px;
-  margin-left: 30px;
+  margin-left: 45px;
   color: #fff;
   text-align: center;
   font-size: 25px;
@@ -414,7 +405,7 @@ summary:before {
   font-family: "Arial MT";
   font-size: 30px;
   font-weight: 400;
-  line-height: 36px;  
+  line-height: 36px;
 }
 
 .contacts-input {
@@ -499,12 +490,12 @@ summary:before {
   font-family: "Arial MT";
   font-size: 20px;
   font-weight: 400;
-  line-height: 36px;    
+  line-height: 36px;
 }
 
 .contacts-list_item {
   padding: 0 0 0 20px;
-  color: white; 
+  color: white;
   position: relative;
 }
 
